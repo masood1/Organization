@@ -2,7 +2,9 @@
 Sample application of organization structure to keep trck of each desk information in Company 
 
 Simple Spring boot project with
+
 -JPA
+
 -Postgress SQL
 
 postgress code to add tables :
@@ -19,6 +21,7 @@ CREATE TABLE public.building
 )
 
 2 FLOOR :
+
 CREATE TABLE public.floor
 (
   floor_id bigint NOT NULL,
@@ -43,6 +46,7 @@ CREATE TABLE public.desk
 This application do CRUD opertion ON databse : API are called throgh postman 
 
 Fallowing API are available :
+
 get http://localhost:8080/cisco/demoValues : will add basic values into databse for iniitial setup 
 
 Delete http://localhost:8080/cisco/{model}/{id}
