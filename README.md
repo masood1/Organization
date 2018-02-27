@@ -7,6 +7,7 @@ Simple Spring boot project with
 
 postgress code to add tables :
 Total 3 tables 
+
 1 BUILDING :
 
 CREATE TABLE public.building
@@ -42,6 +43,7 @@ CREATE TABLE public.desk
 This application do CRUD opertion ON databse : API are called throgh postman 
 
 Fallowing API are available :
+get http://localhost:8080/cisco/demoValues : will add basic values into databse for iniitial setup 
 
 Delete http://localhost:8080/cisco/{model}/{id}
 model can be 1)building 2)floor 3)desk
